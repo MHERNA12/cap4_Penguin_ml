@@ -19,6 +19,11 @@ st.title("Clasificador de pingüinos: Machine Learning App")
 st.write("Esta aplicación usa 6 inputs para predecir la especie de pingüino "
          "usando el modelo construido sobre el dataset Palmer Penguins. "
          "Usa el formulario debajo")
+###Proteger con contraseña
+password_guess = st.text_input('Cual es la contraseña?')
+if password_guess != 'streamlit_password':
+    st.stop()
+
 
 penguin_file = st.file_uploader('Carga tus propios datos')
 
