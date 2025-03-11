@@ -21,7 +21,7 @@ st.write("Esta aplicación usa 6 inputs para predecir la especie de pingüino "
          "Usa el formulario debajo")
 ###Proteger con contraseña
 password_guess = st.text_input('Cual es la contraseña?')
-if password_guess != 'streamlit_password':
+if password_guess != st.secrets["password"]:
     st.stop()
 
 
