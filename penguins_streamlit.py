@@ -15,7 +15,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-st.title("Clasificador de pingüinos")
+st.title("Clasificador de pingüinos: Machine Learning")
 st.write("Esta aplicación usa 6 inputs para predecir la especie de pingüino "
          "usando el modelo construido sobre el dataset Palmer Penguins. "
          "Usa el formulario debajo")
