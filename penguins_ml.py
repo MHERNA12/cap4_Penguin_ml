@@ -43,7 +43,7 @@ plt.title('Which features are the most important for species prediction?')
 plt.xlabel('Importance')
 plt.ylabel('Feature')
 plt.tight_layout()
-fig.savefig('feature_importance.png')
+fig.savefig('feature_importance2.png')
 
 
 
